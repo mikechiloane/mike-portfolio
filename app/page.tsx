@@ -16,7 +16,7 @@ export default function Home() {
     return (
         <div className={`${poppins.className} px-3 md:px-8 `}>
             <main className="w-full flex justify-center">
-                <div className="grid grid-cols-1 md:grid-cols-2 max-w-[1000px]">
+                <div className="grid grid-cols-1 md:grid-cols-2 max-w-[1200px]">
                     <div className="md:sticky md:top-8 md:self-start px-0 md:px-8">
                         <Intro/>
                     </div>

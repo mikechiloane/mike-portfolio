@@ -13,6 +13,7 @@ interface ProjectCardProps{
 export default function ProjectCard({projectName,desc,stack,imagePath,link}:ProjectCardProps){
 
     return (
+
         <div className="w-full text-white">
             <div>
                 <p className="font-[500]  text-[1.05rem]">{projectName}</p>
