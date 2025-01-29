@@ -14,7 +14,7 @@ export default function ProjectCard({projectName,desc,stack,imagePath,link}:Proj
 
     return (
 
-        <div className="w-full text-white">
+        <div key={link} className="w-full text-white">
             <div>
                 <p className="font-[500]  text-[1.05rem]">{projectName}</p>
             </div>

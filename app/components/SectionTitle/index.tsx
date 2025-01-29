@@ -16,6 +16,7 @@ export default function SectionTitle({title, subTitle}:SectionTitleProps){
         <div className={`${inter.className} text-white`}>
             <div className="w-full pt-8 pb-8 md:pt-4">
                 <p className="uppercase text-lg font-bold">{title}</p>
+                <p>{subTitle && ""}</p>
             </div>
         </div>
     )

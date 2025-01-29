@@ -4,7 +4,6 @@ import EducationSection from "@/app/components/EducationSection";
 import ExperienceSection from "@/app/components/ExperienceSection";
 import AboutSection from "@/app/components/AboutSection";
 import ProjectSection from "@/app/components/ProjectSection";
-import TestimonialCard from "@/app/components/TestimonialCard";
 import TestimonialSection from "@/app/components/TestimonialSection";
 
 

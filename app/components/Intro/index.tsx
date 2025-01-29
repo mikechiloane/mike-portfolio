@@ -10,7 +10,7 @@ const socialLinks = [
         imagePath: "/github.svg"
     },
     {
-        link: "https://www.linkedin.com/ln/mikechiloane",
+        link: "https://www.linkedin.com/in/mikechiloane",
         imagePath: "/linkedin.svg"
     }
 ];

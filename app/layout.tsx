@@ -3,6 +3,7 @@ import "primereact/resources/themes/lara-light-cyan/theme.css";
 import "./globals.css";
 
 import {Inter} from 'next/font/google';
+import React from "react";
 
 
 const inter = Inter({

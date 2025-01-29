@@ -1,14 +1,9 @@
 "use client"
-import {Poppins} from 'next/font/google';
 import SectionTitle from "@/app/components/SectionTitle";
 import {Timeline} from "primereact/timeline";
 import EducationCard from "@/app/components/EducationCard";
 import PageSection from "@/app/components/PageSection";
 
-const poppins = Poppins({
-    subsets: ['latin'],
-    weight: ['400', '500', '600', '700', '800'],
-});
 
 interface EducationCardProps {
     school: string,
