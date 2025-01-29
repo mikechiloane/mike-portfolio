@@ -15,8 +15,8 @@ export function gotoSection(sectionClass: string) {
             () => {
                 removeAllActiveController();
                 removeAllActiveRefBars();
-                refBar.classList.add("w-[70px]");
-                sectionController.classList.add("font-[800]", "text-teal-300")
+                refBar?.classList.add("w-[70px]");
+                sectionController?.classList.add("font-[800]", "text-teal-300")
             }
         );
 
@@ -63,8 +63,8 @@ export function activateSectionRef(sectionClass: string) {
 
         removeAllActiveController();
         removeAllActiveRefBars();
-        refBar.classList.add("w-[70px]");
-        sectionController.classList.add("font-[800]", "text-teal-300")
+        refBar?.classList.add("w-[70px]");
+        sectionController?.classList.add("font-[800]", "text-teal-300")
 
 
     } catch (e) {

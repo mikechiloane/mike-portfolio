@@ -5,12 +5,6 @@ import EducationCard from "@/app/components/EducationCard";
 import PageSection from "@/app/components/PageSection";
 
 
-interface EducationCardProps {
-    school: string,
-    qualification: string,
-    year: string
-}
-
 
 const educationData: { school: string, qualification: string, year: string }[] = [
     {
