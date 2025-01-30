@@ -7,21 +7,21 @@ import PageSection from "@/app/components/PageSection";
 
 const experienceData = [
     {
-        year: "2023 Nov - Present",
+        year: "2023 Nov - Present | Lexis Nexis (RELX Group)",
         position: "Intermediate Java Developer",
-        desc: "I was developing web based applications",
-        stack: ["Java", "Springboot", "Spring", "MySQL", "MongoDb", "React", "Angular", "Javascript", "Python", "ElasticSearch", "AWS", "Azure", "Linux", "Azure Devops"]
+        desc: "Building and maintaining high-performance, scalable systems to handle large volumes of legal and business data",
+        stack: ["Java", "Springboot", "Kafka", "Spring","Hibernate","JPA", "MySQL", "MongoDb", "React", "Angular", "Extensions", "Typescript","Node", "Javascript", "Python", "ElasticSearch","CI/CD", "Docker","Kubernetes","Radis","Datadog", "AWS", "Azure", "Linux", "Azure Devops","DuckDB","Parquet","ETL"]
     }, {
-        year: "2023 Nov - Present",
-        position: "Intermediate Java Developer",
-        desc: "I was developing web based applications",
-        stack: ["Java", "Springboot", "Spring", "MySQL"]
+        year: "2022 Feb- 2023 Nov | Convergenc3",
+        position: "Java Developer ",
+        desc: "Solved complex technical challenges for clients in industries such as healthcare, finance, e-commerce, and more.",
+        stack: ["Java", "Quarkus", "Springboot", "JWT", "Spring","REST", "Fast API","Javascript","Hibernate","JPA","Android","Flutter", "Nginx", "RapidAPI", "Selenium", "Jsp", "Node", "GCP", "Kafka","React Native", "MySQL", "MongoDb", "React", "Angular", "Javascript", "Python", "AWS", "Linux", "Salesforce", "Apex"]
     },
     {
-        year: "2023 Nov - Present",
-        position: "Intermediate Java Developer",
-        desc: "I was developing web based applications",
-        stack: ["Java", "Springboot", "Spring", "MySQL"]
+        year: "2019 Jan - 2022 Jan | Maphori Express",
+        position: "App Developer",
+        desc: "Developed and maintained tenant management application",
+        stack: ["PHP", "JAVA", "Bootstrap", "MySQL","MongoDB","React","Firebase","Flutter","NodeJs","Springboot","Javascript"]
     }
 
 ]

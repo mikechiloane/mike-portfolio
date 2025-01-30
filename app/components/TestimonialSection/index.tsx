@@ -4,14 +4,14 @@ import PageSection from "@/app/components/PageSection";
 
 const testimonials = [
     {
-        person: "John Smith",
+        person: "Tiego Modisagae",
         position: "Senior Engineer at LexisNexis",
-        testimony: "Irene consistently delivers high-quality, reliable RESTful APIs and is a key contributor to our team's success."
+        testimony: "Mike consistently delivers high-quality, reliable RESTful APIs and is a key contributor to our team's success."
     },
     {
-        person: "Sarah Jones",
+        person: "Jason Scheepers",
         position: "Project Manager at Convergence",
-        testimony: "Irene’s problem-solving skills and expertise in Java helped us meet tight deadlines on critical projects."
+        testimony: "Mike’s problem-solving skills and expertise in Java helped us meet tight deadlines on critical projects."
     }
 ];
 
