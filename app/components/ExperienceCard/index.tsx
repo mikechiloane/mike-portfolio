@@ -6,9 +6,10 @@ interface ExperienceCardProps {
     position: string;
     desc: string;
     stack: string[];
+    company:string;
 }
 
-export default function ExperienceCard({year, position, desc, stack}: ExperienceCardProps) {
+export default function ExperienceCard({year,company, position, desc, stack}: ExperienceCardProps) {
 
 
     return (
@@ -16,7 +17,10 @@ export default function ExperienceCard({year, position, desc, stack}: Experience
             <div>
                 <div>
                     <p className="text-[.75rem] text-gray-500 font-[500]">{year}</p></div>
-                <div className="mt-1">
+                <div>
+                    <p className="text text-slate-100">{company}</p>
+                </div>
+                <div className="">
                     <p>{position}</p>
                 </div>
                 <div className="mt-2">
