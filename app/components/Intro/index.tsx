@@ -2,6 +2,7 @@
 import SocialStack from "@/app/components/SocialStack";
 import ScrollRef from "@/app/components/ScrollRef";
 import Image from "next/image";
+import AnimatedContainer from "@/app/components/AnimatedContainer";
 
 
 const socialLinks = [
@@ -24,6 +25,7 @@ const scrollReferences = [
 const Intro = () => {
 
     return (
+        <AnimatedContainer>
         <div className={` w-full text-white `}>
             <div className="">
                 <p className="text-[2.2rem]  md:text-[3.5rem] leading-[60px] text-start font-medium">Mike Chiloane</p>
@@ -55,6 +57,7 @@ const Intro = () => {
             </div>
 
         </div>
+        </AnimatedContainer>
     )
 }
 
