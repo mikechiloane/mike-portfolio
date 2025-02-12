@@ -3,7 +3,13 @@ import SocialStack from "@/app/components/SocialStack";
 import ScrollRef from "@/app/components/ScrollRef";
 import Image from "next/image";
 import AnimatedContainer from "@/app/components/AnimatedContainer";
+import AnimatedText from "@/app/components/AnimatedText";
+import {Space_Mono} from "next/font/google";
 
+const font = Space_Mono({
+    subsets: ["latin"],
+    weight: ['400', '700'],
+});
 
 const socialLinks = [
     {
@@ -28,6 +34,11 @@ const Intro = () => {
         <AnimatedContainer>
             <div className={` w-full text-white `}>
                 <div className="">
+                    <div className={`w-full  flex flex-start ${font.className} -mb-2 font-[400]`}>
+                        <AnimatedText
+                            texts={['Hello', 'Hola', '你好', 'Salut', 'Hallo', 'Ciao', 'こんにちは', '안녕하세요']}
+                        />
+                    </div>
                     <p className="text-[2.2rem]  md:text-[3.5rem] leading-[60px] text-start font-medium">Mike
                         Chiloane</p>
                     <p className="text-xl md:text-2xl font-[400]">Intermediate Java Developer</p>
